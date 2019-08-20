@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ticketnow</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<body>
+    <h1>Theatre</h1>
+    <table border="1" style="width:50%;">
+        <tr>
+            <th>Theatre</th>
+            <th>address</th>
+            <th>movie</th>
+            <th>action</th>
+        </tr>
+        {% for movie in form %}
+        <tr>
+            <td>{{movie.theatrename}}</td>
+            <td>{{movie.address}}</td>
+            <td>{{movie.movie}}</td>
+            <td>
+                <font size="4"></font><a href="/bk">tickets</a></font>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+<div id="divHomeTheatreSection" class="tn-section-columns tn-columns-3">
+    <div class='tn-section-column tn-section-column-custom'>
+        <ul>
+            <li><a href='https://www.ticketnew.com/Anjali-Theatre-Secunderabad-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/1391'>Anjali Theatre - Secunderabad</a></li>
+            <li><a href='https://www.ticketnew.com/Bujanga-Theatre-Jeedimetla-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/455'>Bujanga Theatre - Jeedimetla</a></li>
+            <li><a href='https://www.ticketnew.com/Carnival-Ameerpet-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/4061'>Carnival Ameerpet</a></li>
+            <li><a href='https://www.ticketnew.com/Carnival-Leonia-Shameerpet-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/4077'>Carnival Leonia Shameerpet</a></li>
+            <li><a href='https://www.ticketnew.com/Indra-Theatre-Karmanghat-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/556'>Indra Theatre - Karmanghat</a></li>
+            <li><a href='https://www.ticketnew.com/INOX-GVK-One,-Banjara-Hills-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/3138'>INOX GVK One, Banjara Hills</a></li>
+            <li><a href='https://www.ticketnew.com/INOX-Maheshwari-Parmeshwari-Mall,-Kachiguda-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/3155'>INOX Maheshwari Parmeshwari Mall, Kachiguda</a></li>
+            <li><a href='https://www.ticketnew.com/Jyothi-Theatre-IDA-Bollaram-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/484'>Jyothi Theatre - IDA Bollaram</a></li>
+            <li><a href='https://www.ticketnew.com/Kalyani-Theatre-Bowenpally-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/486'>Kalyani Theatre - Bowenpally</a></li>
+            <li><a href='https://www.ticketnew.com/Krishna-Cinema-Nagaram-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/1030'>Krishna Cinema - Nagaram</a></li>
+            <li><a href='https://www.ticketnew.com/Kumar-70mm-Kachiguda-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/1544'>Kumar 70mm - Kachiguda</a></li>
+            <li><a href='https://www.ticketnew.com/Manju-Cinemas-Kalasiguda-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/452'>Manju Cinemas - Kalasiguda</a></li>
+            <li><a href='https://www.ticketnew.com/Metro-Theatre-70mm-Bhadurpura-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/685'>Metro Theatre 70mm - Bhadurpura</a></li>
+            <li><a href='https://www.ticketnew.com/Nagendra-Theatre-Karmanghat-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/772'>Nagendra Theatre - Karmanghat</a></li>
+            <li><a href='https://www.ticketnew.com/Nartaki-Theatre-Alwal-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/10042'>Nartaki Theatre - Alwal</a></li>
+            <li><a href='https://www.ticketnew.com/PVR-4DX-Irrum-Manzil--Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/2203'>PVR 4DX Irrum Manzil - Hyderabad</a></li>
+            <li><a href='https://www.ticketnew.com/PVR-ICON-Hitech-Madhapur-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/2173'>PVR ICON Hitech - Madhapur</a></li>
+            <li><a href='https://www.ticketnew.com/PVR-Inorbit-Cyberabad-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/2043'>PVR Inorbit Cyberabad</a></li>
+            <li><a href='https://www.ticketnew.com/PVR-Irrum-Manzil--Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/2204'>PVR Irrum Manzil - Hyderabad</a></li>
+        </ul>
+    </div>
+    <div class='tn-section-column tn-section-column-custom'>
+        <ul>
+            <li><a href='https://www.ticketnew.com/PVR-Kukatpally--Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/2011'>PVR Kukatpally - Hyderabad</a></li>
+            <li><a href='https://www.ticketnew.com/PVR-Next-Galleria-Mall-Panjagutta-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/2174'>PVR Next Galleria Mall - Panjagutta</a></li>
+            <li><a href='https://www.ticketnew.com/PVR-Panjagutta--Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/2010'>PVR Panjagutta - Hyderabad</a></li>
+            <li><a href='https://www.ticketnew.com/PVR-Play-House-Next-Galleria-Mall-Panjagutta-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/2175'>PVR Play House Next Galleria Mall-Panjagutta</a></li>
+            <li><a href='https://www.ticketnew.com/PVR-RK-Cineplex--Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/2023'>PVR RK Cineplex Hyderabad</a></li>
+            <li><a href='https://www.ticketnew.com/Raghavendra-Cinema-Hall-Malkajgiri-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/832'>Raghavendra Cinema Hall - Malkajgiri</a></li>
+            <li><a href='https://www.ticketnew.com/Rajdhani-70mm-Dilsuknagar-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/1443'>Rajdhani 70mm - Dilsuknagar</a></li>
+            <li><a href='https://www.ticketnew.com/Rajdhani-Delux-Theate-Dilsukhnagar-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/1766'>Rajdhani Delux Theate - Dilsukhnagar</a></li>
+            <li><a href='https://www.ticketnew.com/Sampurna-Theatre-Vanasthalipuram-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/686'>Sampurna Theatre - Vanasthalipuram</a></li>
+            <li><a href='https://www.ticketnew.com/Sandhya-35mm-2K-Dolby-Atmos-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/773'>Sandhya 35mm 2K Dolby Atmos</a></li>
+            <li><a href='https://www.ticketnew.com/Santosh-70Mm-Abids-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/702'>Santosh 70Mm - Abids</a></li>
+            <li><a href='https://www.ticketnew.com/Sapna-35Mm-Abids-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/703'>Sapna 35Mm - Abids</a></li>
+            <li><a href='https://www.ticketnew.com/Sarada-Kapra-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/495'>Sarada - Kapra</a></li>
+            <li><a href='https://www.ticketnew.com/Select-Talkies--Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/602'>Select Talkies - Hyderabad</a></li>
+            <li><a href='https://www.ticketnew.com/Sree-Mayuri-70Mm-RTC-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/380'>Sree Mayuri 70Mm - RTC</a></li>
+            <li><a href='https://www.ticketnew.com/Sri-Krishna-70mm-Uppal-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/710'>Sri Krishna 70mm - Uppal</a></li>
+            <li><a href='https://www.ticketnew.com/Sri-Krishna-Theatre-Aliabad-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/982'>Sri Krishna Theatre - Aliabad</a></li>
+            <li><a href='https://www.ticketnew.com/Sri-Lakshmi-Kalamandir-70mm-A-C-Alwal-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/528'>Sri Lakshmi Kalamandir 70mm A/C - Alwal</a></li>
+            <li><a href='https://www.ticketnew.com/Sri-Lakshmi-Theatre-Karmanghat-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/806'>Sri Lakshmi Theatre - Karmanghat</a></li>
+        </ul>
+    </div>
+    <div class='tn-section-column tn-section-column-custom'>
+        <ul>
+            <li><a href='https://www.ticketnew.com/Sri-Maheswaari-Cinema-Maheswaram-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/922'>Sri Maheswaari Cinema - Maheswaram</a></li>
+            <li><a href='https://www.ticketnew.com/Super-70Mm-Balapur-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/441'>Super 70Mm - Balapur</a></li>
+            <li><a href='https://www.ticketnew.com/Sushma-Theatre-Vanasthalipuram-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/534'>Sushma Theatre - Vanasthalipuram</a></li>
+            <li><a href='https://www.ticketnew.com/SV-Cine-Square-2K-Dolby--Patancheru-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/453'>SV Cine Square 2K Dolby  - Patancheru</a></li>
+            <li><a href='https://www.ticketnew.com/SVC-Cinemas-Mahalakshmi-Kothapet-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/853'>SVC Cinemas - Mahalakshmi - Kothapet</a></li>
+            <li><a href='https://www.ticketnew.com/SVC-Eeshwar-Attapur-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/1808'>SVC Eeshwar-Attapur</a></li>
+            <li><a href='https://www.ticketnew.com/SVC-Sangeeta-70mm-A-C-DTS-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/856'>SVC Sangeeta 70mm A/C DTS</a></li>
+            <li><a href='https://www.ticketnew.com/Venkata-Sai-Theatre-Keesara-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/983'>Venkata Sai Theatre - Keesara</a></li>
+            <li><a href='https://www.ticketnew.com/Vimal-Theatre-Bala-Nagar-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/481'>Vimal Theatre - Bala Nagar</a></li>
+            <li><a href='https://www.ticketnew.com/Viswanath-Theater-70Mm-A-C-Kukatpally-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/1133'>Viswanath Theater 70Mm A/C - Kukatpally</a></li>
+            <li><a href='https://www.ticketnew.com/Vyjayanthi-Cinemas-Nacharam-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/701'>Vyjayanthi Cinemas - Nacharam</a></li>
+            <li><a href='https://www.ticketnew.com/Yakuth-Mahal-Yakutpura-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/1673'>Yakuth Mahal Yakutpura</a></li>
+            <li><a href='https://www.ticketnew.com/Devi-70mm-4K-&-Dolby-Atmos--Chikkadpalli-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/9199'>Devi 70mm 4K & Dolby Atmos- Chikkadpalli</a></li>
+            <li><a href='https://www.ticketnew.com/Platinum-Cinemas--Gachibowli-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/9592'>Platinum Cinemas- Gachibowli</a></li>
+            <li><a href='https://www.ticketnew.com/PVR-Musarambagh--Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/2211'>PVR Musarambagh - Hyderabad</a></li>
+            <li><a href='https://www.ticketnew.com/Sudarshan-35mm-4k-&-Dolby-Atmos--RTC-X-Roads-Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/9911'>Sudarshan 35mm 4k & Dolby Atmos- RTC X Roads</a></li>
+            <li><a href='https://www.ticketnew.com/Inox-Gsm-Mall--Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/3248'>Inox Gsm Mall - Hyderabad</a></li>
+            <li><a href='https://www.ticketnew.com/Vishnu-70Mm-Vanstalipuram--Hyderabad-Book-My-Movie-Show-Tickets/Online-Ticket-Booking/10235'>Vishnu 70Mm - Vanstalipuram - Hyderabad</a></li>
+        </ul>
+    </div>
+</div>
+</div>
+
+</html>

@@ -1,0 +1,697 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head id="Head1">
+    <title>
+        Online Movie Tickets Booking, Theatre Booking in Chennai, Bangalore, Mumbai, Kolkata, Ahmedabad & More
+    </title>
+    <meta name="description" content="Online Booking of all Movies, Theatres and Events at one place ticketnew.com. Book your tickets Online for Chennai, Bangalore, Mumbai, Kolkata, Ahmedabad, etc..." />
+    <meta name="keywords" content="Online Booking, Movie Booking, Theatre Booking, Movie Tickets Online, Theatre Tickets Online, Events, Chennai, Bangalore, Mumbai, Kolkata, Ahmedabad, Patna, Surat, Jaipur, Mangalore" />
+    <link rel="stylesheet" type="text/css" href="//cdn11.ticketnew.com/css/main.css" />
+    <style type="text/css">
+        .tn-main-content {
+            width: 80%;
+        }
+        
+        .tn-seating-chart {
+            width: 100%;
+        }
+        
+        .tn-class-grid-container .tn-class-grid table td {
+            min-width: 24px;
+            min-height: 24px;
+            padding: 4px 3px;
+            font-size: 14px;
+            color: #757575;
+            cursor: pointer;
+            background-size: 24px;
+        }
+        
+        .tn-class-grid-container h5 {
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <form method="post" action="./SelectSeats.aspx?EventID=MjA0NTEzOA%3d%3d-vbX5bbvOYCI%3d&amp;ReqSeats=MTA%3d-zISu%2bSIzx8g%3d&amp;LevelID=MA%3d%3d-110A7HeCwRM%3d&amp;ReqDate=MjAxOS0wOC0xNg%3d%3d-gERiwMz6hes%3d&amp;VenueID=OTU5Mg%3d%3d-04QbfLKdxSY%3d&amp;SiteInfo=MA%3d%3d-110A7HeCwRM%3d&amp;MovieURL=aHR0cHM6Ly93d3cudGlja2V0bmV3LmNvbS9SYW5hcmFuZ2FtLU1vdmllLVRpY2tldHMtT25saW5lLVNob3ctVGltaW5ncy9PbmxpbmUtQWR2YW5jZS1Cb29raW5nLzIwODU3L0MvSHlkZXJhYmFk-NCmSxAwtIfg%3d"
+        id="form1">
+        <div class="aspNetHidden">
+            <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+            <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+            <input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTU1NTYwMDgwOA8WAh4TVmFsaWRhdGVSZXF1ZXN0TW9kZQIBFgICAw9kFgRmDxYCHglpbm5lcmh0bWwFlTkNCiAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJoaWRkZW4iIG5hbWU9ImhkbkNpdHkiIGlkPSJoZG5DaXR5Ij4NCiAgICAgICAgICAgIDxkaXYgaWQ9ImhlYWRlciI+DQogICAgICAgICAgICAgICAgPGRpdiBpZD0iaGVhZGVyX3RvcCI+DQogICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InRuLXNlY3Rpb24tY29udGVudCB0bi1uby1wYWRkaW5nIj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgaWQ9ImxvZ29fbmF2aWdhdGlvbl9hbmRfYWNjb3VudCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBpZD0ibG9nb19hbmRfY2l0eSI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxhIGhyZWY9Imh0dHBzOi8vd3d3LnRpY2tldG5ldy5jb20vIiBpZD0ibG9nbyI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPSJodHRwczovL2NkbjMudGlja2V0bmV3LmNvbS90bi90bl9sb2dvL3RuLWxvZ28tMDEuc3ZnIiBpZD0iaW1nTG9nbyIgc3R5bGU9Im1hcmdpbi10b3A6IC02cHg7IGhlaWdodDogNDEuMnB4OyI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvYT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGEgaHJlZj0iI2NpdHlfcG9wdXAiIGlkPSJzZWxlY3RfY2l0eSIgY2xhc3M9InRuLXNlbGVjdC1jaXR5IiBzdHlsZT0iZGlzcGxheTpub25lIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIA0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+Wzwvc3Bhbj4gPHNwYW4gaWQ9InNwblNlbGVjdGVkUmVnaW9uIiBjbGFzcz0idG4tY2l0eS1uYW1lIHRuLXNpbmdsZS1saW5lIj5DaGVubmFpPC9zcGFuPiA8c3BhbiBjbGFzcz0iZHJvcGRvd24taWNvbiI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9Imh0dHBzOi8vY2RuMTEudGlja2V0bmV3LmNvbS9pbWFnZXMvdG4tbG9jYXRpb24td2hpdGUucG5nIj48L3NwYW4+IDxzcGFuPl08L3NwYW4+DQoNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9hPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgaWQ9Im5hdmlnYXRpb24iPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8dWw+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3M9ImxpLWhvbWUiPjwvbGk+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3M9InBhcmVudCBsaS1tb3ZpZSI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0idG4tbmF2LWRyb3Bkb3duLWNvbnRhaW5lciI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InRuLXNlY3Rpb24iPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0idG4tc2VjdGlvbi1tdWx0aS1jb2x1bW4tbGlua3MiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgaWQ9Im5hdk5vd1Nob3dpbmciIGNsYXNzPSJ0bi1zZWN0aW9uLWNvbHVtbnMgdG4tY29sdW1ucy00Ij4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbGk+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3M9InBhcmVudCBsaS10aGVhdHJlIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0bi1uYXYtZHJvcGRvd24tY29udGFpbmVyIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0idG4tc2VjdGlvbiI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0aGVhdHJlcyB0bi1zZWN0aW9uLW11bHRpLWNvbHVtbi1saW5rcyI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBpZD0ibmF2VGhlYXRyZXMiIGNsYXNzPSJ0bi1zZWN0aW9uLWNvbHVtbnMgdG4tY29sdW1ucy0zIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvbGk+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8bGkgY2xhc3M9InBhcmVudCBsaS1ldmVudCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0idG4tbmF2LWRyb3Bkb3duLWNvbnRhaW5lciI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3M9InRuLXNlY3Rpb24iPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0idG4tc2VjdGlvbi1tdWx0aS1jb2x1bW4tbGlua3MiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgaWQ9Im5hdkV2ZW50cyIgY2xhc3M9InRuLXNlY3Rpb24tY29sdW1ucyB0bi1jb2x1bW5zLTQiPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9saT4NCg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgPGxpIGNsYXNzPSJsaS1vcmRlciI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L2xpPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvdWw+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBpZD0iYWNjb3VudCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDx1bD4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBpZD0ibGlfbG9naW4iPjxhIGhyZWY9Ii9PbmxpbmVUaGVhdHJlL1RoZWF0cmUvVXNlckxvZ2luLmFzcHgiPjxzcGFuIGNsYXNzPSJpY29uLWFuZC10ZXh0Ij48c3BhbiBjbGFzcz0iaWNvbiBhY2NvdW50LWljb24iPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPSJodHRwczovL2NkbjExLnRpY2tldG5ldy5jb20vaW1hZ2VzL2FjY291bnQtd2hpdGUuc3ZnIj48L3NwYW4+IDxzcGFuIGNsYXNzPSJ0ZXh0Ij5Mb2cgSW4vU2lnbiBVcDwvc3Bhbj48L3NwYW4+PC9hPjwvbGk+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICANCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzcz0iYm9yZGVyIj48c3Bhbj48L3NwYW4+PC9saT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzcz0icGFyZW50IGxpLW9mZmVycyI+PGEgaHJlZj0iL01vdmllLW9mZmVycy1UaWNrZXRzLU9ubGluZS1Cb29raW5nLVNob3ctVGltaW5ncy9sYXRlc3Qtb2ZmZXJzL09mZmVyX1NlY3Rpb24vQy9DaGVubmFpIiBpZD0iaHJlZl9vZmZlcnMiPjxzcGFuIGNsYXNzPSJpY29uLWFuZC10ZXh0Ij48c3BhbiBjbGFzcz0idGV4dCI+T0ZGRVJTPC9zcGFuPjwvc3Bhbj48L2E+PC9saT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaSBjbGFzcz0iYm9yZGVyIj48c3Bhbj48L3NwYW4+PC9saT4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxsaT48YSBocmVmPSJodHRwczovL3d3dy50aWNrZXRuZXcuY29tL2Rvd25sb2FkX2FwcGxpY2F0aW9uL2xhdGVzdC1vZmZlcnMvdGlja2V0bmV3X21vYmlsZV9hcHBsaWNhdGlvbiI+PHNwYW4gY2xhc3M9Imljb24tYW5kLXRleHQiPjxzcGFuIGNsYXNzPSJpY29uIGFwcC1kb3dubG9hZC1pY29uIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz0iaHR0cHM6Ly9jZG4xMS50aWNrZXRuZXcuY29tL2ltYWdlcy9hcHAtZG93bmxvYWQuc3ZnIj48L3NwYW4+IDxzcGFuIGNsYXNzPSJ0ZXh0Ij5BUFA8L3NwYW4+PC9zcGFuPjwvYT48L2xpPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8L3VsPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICA8ZGl2IGlkPSJjaXR5X3BvcHVwIiBjbGFzcz0idG4tc2VjdGlvbiI+DQogICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0idG4tcG9wdXAtY29udGFpbmVyIHRuLWNpdHktc2VsZWN0LXBvcHVwIj4NCiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzcz0idG4tcG9wdXAtY29udGVudCI+DQogICAgICAgICAgICAgICAgICAgICAgICA8aDU+U2VsZWN0IGEgQ2l0eTwvaDU+DQogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0eXBlYWhlYWQtY29udGFpbmVyIj4NCiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzPSJ0bi1zZWFyY2gtYm94IHRuLXR5cGVhaGVhZC1maWVsZCI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPSJ0ZXh0IiBuYW1lPSJzZWFyY2giIGlkPSJ0bl9jaXR5X3NlYXJjaCIgcGxhY2Vob2xkZXI9IlNlYXJjaCBmb3IgQ2l0eSI+DQogICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPSJodHRwczovL2NkbjExLnRpY2tldG5ldy5jb20vaW1hZ2VzL3NlYXJjaC5zdmciIGFsdD0iU2VhcmNoIGljb24iPg0KICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+DQogICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGlkPSJhbGxDaXRpZXMiIGNsYXNzPSJ0bi1jaXRpZXMtY29udGFpbmVyIj4NCiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgIDwvZGl2Pg0KICAgICAgICAgICAgPGRpdiBpZD0iZGl2Q2l0eVNjcmlwdCI+DQogICAgICAgICAgICA8L2Rpdj4NCiAgICAgICAgICAgIA0KICAgICAgICAgICAgPHNjcmlwdCB0eXBlPSJ0ZXh0L2phdmFzY3JpcHQiPg0KICAgICAgICAgICAgICAgIGZ1bmN0aW9uIHNldENvb2tpZShzdHJDaXR5KSB7DQogICAgICAgICAgICAgICAgICAgICQuY29va2llKCJUTiIsIHN0ckNpdHksIHsgZXhwaXJlczogMzY1LCBwYXRoOiAnLycgfSk7DQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgICAgIGZ1bmN0aW9uIHNldENvb2tpZW1vdmllKF90aGlzLCBzdHJDaXR5KSB7DQogICAgICAgICAgICAgICAgICAgICQuY29va2llKCJUTiIsIHN0ckNpdHksIHsgZXhwaXJlczogMzY1LCBwYXRoOiAnLycgfSk7ICAgICAgICAgICAgICAgICANCiAgICAgICAgICAgICAgICAgICAgbG9jYXRpb24uaHJlZiA9ICBfdGhpcy5nZXRBdHRyaWJ1dGUoImRhdGEtaHJlZiIpOw0KICAgICAgICAgICAgICAgICAgDQogICAgICAgICAgICAgICAgfQ0KICAgICAgICAgICAgPC9zY3JpcHQ+DQoNCiAgICAgICAgICAgIDxzY3JpcHQgdHlwZT0idGV4dC9qYXZhc2NyaXB0Ij4NCiAgICAgICAgICAgICAgICBmdW5jdGlvbiBTaWdub3V0KCkgew0KICAgICAgICAgICAgICAgICAgICBUS1RORVcuTWlzYy5sb2FkZXIodHJ1ZSk7DQogICAgICAgICAgICAgICAgICAgIFRLVE5FVy5NaXNjLmFqYXgoew0KICAgICAgICAgICAgICAgICAgICAgICAgdHlwZTogJ1BPU1QnLA0KICAgICAgICAgICAgICAgICAgICAgICAgZGF0YXR5cGU6ICdqc29uJywNCiAgICAgICAgICAgICAgICAgICAgICAgIGNvbnRlbnR0eXBlOiAnc3RyaW5nJywNCiAgICAgICAgICAgICAgICAgICAgICAgIGFjY2VwdDogJ2FwcGxpY2F0aW9uL2pzb247IGNoYXJzZXQ9dXRmLTgnLA0KICAgICAgICAgICAgICAgICAgICAgICAgdXJsOiAiY2FsbHMvU2lnbm91dCIsDQogICAgICAgICAgICAgICAgICAgICAgICBkYXRhOiAie30iLA0KICAgICAgICAgICAgICAgICAgICAgICAgY29tcGxldGU6IGZ1bmN0aW9uICgpIHsNCiAgICAgICAgICAgICAgICAgICAgICAgICAgICBpZiAoVEtUTkVXLlZhbGlkYXRlLnVybChsb2dvLmhyZWYpKQ0KICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aW5kb3cubG9jYXRpb24gPSBsb2dvLmhyZWY7DQogICAgICAgICAgICAgICAgICAgICAgICB9DQogICAgICAgICAgICAgICAgICAgIH0pOw0KICAgICAgICAgICAgICAgIH0NCiAgICAgICAgICAgIDwvc2NyaXB0Pg0KICAgICAgICBkAgEPZBYEAgEPFgIfAQXARDxkaXYgaWQ9J2Rpdmx2bHJ0MScgY2xhc3M9J3RuLWNsYXNzLWdyaWQtY29udGFpbmVyJyBkYXRhLWx2bHJ0MT0yNTAgZGF0YS1tc2c9JycgZGF0YS1hcmVhbmFtZT0nUExBVElOVU0gUFJFTUlVTScgZGF0YS1mYj0nRmFsc2UnPjxoNT5QTEFUSU5VTSBQUkVNSVVNICYjODM3NzsyNTA8L2g1PjxkaXYgY2xhc3M9J3RuLWNsYXNzLWdyaWQnIGFsaWduPSdjZW50ZXInIGRhdGEtbWF4PTEwPjx0YWJsZT48dGJvZHk+PHRyPjx0ZCBjbGFzcz0ndG4tcm93LWxhYmVsJz5BPC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScyXzFfMScgZGF0YS1zZWF0bmFtZT0nQTEnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzEnPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMl8xXzInIGRhdGEtc2VhdG5hbWU9J0EyJyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScxJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzJfMV8zJyBkYXRhLXNlYXRuYW1lPSdBMycgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMSc+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScyXzFfNCcgZGF0YS1zZWF0bmFtZT0nQTQnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzEnPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMl8xXzUnIGRhdGEtc2VhdG5hbWU9J0E1JyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScxJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzJfMV82JyBkYXRhLXNlYXRuYW1lPSdBNicgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMSc+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScyXzFfNycgZGF0YS1zZWF0bmFtZT0nQTcnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzEnPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMl8xXzgnIGRhdGEtc2VhdG5hbWU9J0E4JyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScxJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzJfMV85JyBkYXRhLXNlYXRuYW1lPSdBOScgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMSc+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScyXzFfMTAnIGRhdGEtc2VhdG5hbWU9J0ExMCcgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMSc+PC90ZD48L3RyPjx0cj48dGQgY2xhc3M9J3RuLXJvdy1sYWJlbCc+QjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMl8yXzEnIGRhdGEtc2VhdG5hbWU9J0IxJyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScxJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzJfMl8yJyBkYXRhLXNlYXRuYW1lPSdCMicgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMSc+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScyXzJfMycgZGF0YS1zZWF0bmFtZT0nQjMnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzEnPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMl8yXzQnIGRhdGEtc2VhdG5hbWU9J0I0JyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScxJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzJfMl81JyBkYXRhLXNlYXRuYW1lPSdCNScgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMSc+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScyXzJfNicgZGF0YS1zZWF0bmFtZT0nQjYnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzEnPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0ICcgZGF0YS1zZWF0PScnIGRhdGEtc2VhdG5hbWU9J0InIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzEnPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0ICcgZGF0YS1zZWF0PScnIGRhdGEtc2VhdG5hbWU9J0InIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzEnPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMl8yXzknIGRhdGEtc2VhdG5hbWU9J0I3JyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScxJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzJfMl8xMCcgZGF0YS1zZWF0bmFtZT0nQjgnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzEnPjwvdGQ+PC90cj48L3Rib2R5PjwvdGFibGU+PC9kaXY+PC9kaXY+PGRpdiBpZD0nZGl2bHZscnQyJyBjbGFzcz0ndG4tY2xhc3MtZ3JpZC1jb250YWluZXInIGRhdGEtbHZscnQyPTI1MCBkYXRhLW1zZz0nJyBkYXRhLWFyZWFuYW1lPSdQTEFUSU5VTSBSRUNMSU5FUlMnIGRhdGEtZmI9J0ZhbHNlJz48aDU+UExBVElOVU0gUkVDTElORVJTICYjODM3NzsyNTA8L2g1PjxkaXYgY2xhc3M9J3RuLWNsYXNzLWdyaWQnIGFsaWduPSdjZW50ZXInIGRhdGEtbWF4PTEwPjx0YWJsZT48dGJvZHk+PHRyPjx0ZCBjbGFzcz0ndG4tcm93LWxhYmVsJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCc+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQnPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0Jz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCc+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQnPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0Jz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCc+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQnPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0Jz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCc+PC90ZD48L3RyPjx0cj48dGQgY2xhc3M9J3RuLXJvdy1sYWJlbCc+QzwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMV8xXzEnIGRhdGEtc2VhdG5hbWU9J0MxJyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScyJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzFfMV8yJyBkYXRhLXNlYXRuYW1lPSdDMicgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMic+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScxXzFfMycgZGF0YS1zZWF0bmFtZT0nQzMnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzInPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMV8xXzQnIGRhdGEtc2VhdG5hbWU9J0M0JyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScyJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzFfMV81JyBkYXRhLXNlYXRuYW1lPSdDNScgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMic+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC1hdmFpbGFibGUnIGRhdGEtc2VhdD0nMV8xXzYnIGRhdGEtc2VhdG5hbWU9J0M2JyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScyJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCAnIGRhdGEtc2VhdD0nJyBkYXRhLXNlYXRuYW1lPSdDJyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScyJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzFfMV84JyBkYXRhLXNlYXRuYW1lPSdDNycgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMic+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScxXzFfOScgZGF0YS1zZWF0bmFtZT0nQzgnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzInPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0Jz48L3RkPjwvdHI+PHRyPjx0ZCBjbGFzcz0ndG4tcm93LWxhYmVsJz5EPC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScxXzJfMScgZGF0YS1zZWF0bmFtZT0nRDEnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzInPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMV8yXzInIGRhdGEtc2VhdG5hbWU9J0QyJyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScyJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzFfMl8zJyBkYXRhLXNlYXRuYW1lPSdEMycgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMic+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScxXzJfNCcgZGF0YS1zZWF0bmFtZT0nRDQnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzInPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMV8yXzUnIGRhdGEtc2VhdG5hbWU9J0Q1JyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScyJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzFfMl82JyBkYXRhLXNlYXRuYW1lPSdENicgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMic+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgJyBkYXRhLXNlYXQ9JycgZGF0YS1zZWF0bmFtZT0nRCcgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMic+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScxXzJfOCcgZGF0YS1zZWF0bmFtZT0nRDcnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzInPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMV8yXzknIGRhdGEtc2VhdG5hbWU9J0Q4JyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScyJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCc+PC90ZD48L3RyPjx0cj48dGQgY2xhc3M9J3RuLXJvdy1sYWJlbCc+RTwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtYXZhaWxhYmxlJyBkYXRhLXNlYXQ9JzFfM18xJyBkYXRhLXNlYXRuYW1lPSdFMScgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMic+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScxXzNfMicgZGF0YS1zZWF0bmFtZT0nRTInIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzInPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMV8zXzMnIGRhdGEtc2VhdG5hbWU9J0UzJyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScyJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzFfM180JyBkYXRhLXNlYXRuYW1lPSdFNCcgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMic+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScxXzNfNScgZGF0YS1zZWF0bmFtZT0nRTUnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzInPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMV8zXzYnIGRhdGEtc2VhdG5hbWU9J0U2JyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScyJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCAnIGRhdGEtc2VhdD0nJyBkYXRhLXNlYXRuYW1lPSdFJyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScyJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzFfM184JyBkYXRhLXNlYXRuYW1lPSdFNycgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMic+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScxXzNfOScgZGF0YS1zZWF0bmFtZT0nRTgnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzInPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0Jz48L3RkPjwvdHI+PHRyPjx0ZCBjbGFzcz0ndG4tcm93LWxhYmVsJz5GPC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScxXzRfMScgZGF0YS1zZWF0bmFtZT0nRjEnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzInPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMV80XzInIGRhdGEtc2VhdG5hbWU9J0YyJyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScyJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzFfNF8zJyBkYXRhLXNlYXRuYW1lPSdGMycgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMic+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScxXzRfNCcgZGF0YS1zZWF0bmFtZT0nRjQnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzInPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMV80XzUnIGRhdGEtc2VhdG5hbWU9J0Y1JyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScyJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzFfNF82JyBkYXRhLXNlYXRuYW1lPSdGNicgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMic+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgJyBkYXRhLXNlYXQ9JycgZGF0YS1zZWF0bmFtZT0nRicgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMic+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScxXzRfOCcgZGF0YS1zZWF0bmFtZT0nRjcnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzInPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMV80XzknIGRhdGEtc2VhdG5hbWU9J0Y4JyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScyJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCc+PC90ZD48L3RyPjx0cj48dGQgY2xhc3M9J3RuLXJvdy1sYWJlbCc+RzwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMV81XzEnIGRhdGEtc2VhdG5hbWU9J0cxJyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScyJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzFfNV8yJyBkYXRhLXNlYXRuYW1lPSdHMicgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMic+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScxXzVfMycgZGF0YS1zZWF0bmFtZT0nRzMnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzInPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMV81XzQnIGRhdGEtc2VhdG5hbWU9J0c0JyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScyJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzFfNV81JyBkYXRhLXNlYXRuYW1lPSdHNScgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMic+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQgdG4tc2VhdC10YWtlbicgZGF0YS1zZWF0PScxXzVfNicgZGF0YS1zZWF0bmFtZT0nRzYnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzInPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0ICcgZGF0YS1zZWF0PScnIGRhdGEtc2VhdG5hbWU9J0cnIGRhdGEtdHc9J0ZhbHNlJyBkYXRhLXR3ZD0nJyBkYXRhLWFyZWE9JzInPjwvdGQ+PHRkIGNsYXNzPSd0bi1zZWF0IHRuLXNlYXQtdGFrZW4nIGRhdGEtc2VhdD0nMV81XzgnIGRhdGEtc2VhdG5hbWU9J0c3JyBkYXRhLXR3PSdGYWxzZScgZGF0YS10d2Q9JycgZGF0YS1hcmVhPScyJz48L3RkPjx0ZCBjbGFzcz0ndG4tc2VhdCB0bi1zZWF0LXRha2VuJyBkYXRhLXNlYXQ9JzFfNV85JyBkYXRhLXNlYXRuYW1lPSdHOCcgZGF0YS10dz0nRmFsc2UnIGRhdGEtdHdkPScnIGRhdGEtYXJlYT0nMic+PC90ZD48dGQgY2xhc3M9J3RuLXNlYXQnPjwvdGQ+PC90cj48L3Rib2R5PjwvdGFibGU+PC9kaXY+PC9kaXY+ZAIDDxYCHwEFqAM8ZGl2IGNsYXNzPSd0bi1tb3ZpZS1pbmZvIHRuLWJsb2NrJz48aDI+UmFuYXJhbmdhbSAoVS9BKSAtIFRlbHVndTwvaDI+PGg1PlRlbHVndSB8IDJEIHwgVS9BPC9oNT48L2Rpdj48ZGl2IGNsYXNzPSd0bi10aGVhdHJlLWluZm8gdG4tYmxvY2sgdG4tbm8tYm9yZGVyJz48aDYgY2xhc3M9J3RuLW1hcmdpbi1ib3R0b20tMTAnPlRoZWF0cmVzPC9oNj48aDU+UGxhdGludW0gQ2luZW1hcy0gR2FjaGlib3dsaSB8PGJyLz5TQ1JFRU4gNDwvaDU+PC9kaXY+PGRpdiBjbGFzcz0ndG4tbW92aWUtc2hvd3RpbWUgdG4tYmxvY2snPjxoNiBjbGFzcz0ndG4tbWFyZ2luLWJvdHRvbS0xMCc+U2hvd3RpbWU8L2g2PjxoNT48c3BhbiBjbGFzcz0ndG4tZGF0ZS10aW1lJz5GcmksIDE2IEF1ZyAgIDA4OjAwIFBNPC9zcGFuPiZuYnNwOyZuYnNwOzwvaDU+PC9kaXY+ZGRc4gH/N1mhxvdATl+H0T2McDUmAYJGQf1/DyU7r449dw=="
+            />
+        </div>
+
+        <script type="text/javascript">
+            //<![CDATA[
+            var theForm = document.forms['form1'];
+            if (!theForm) {
+                theForm = document.form1;
+            }
+
+            function __doPostBack(eventTarget, eventArgument) {
+                if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+                    theForm.__EVENTTARGET.value = eventTarget;
+                    theForm.__EVENTARGUMENT.value = eventArgument;
+                    theForm.submit();
+                }
+            }
+            //]]>
+        </script>
+
+
+        <div class="aspNetHidden">
+
+            <input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="67C198EC" />
+            <input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAB6y5IUimz0fYXyiVD/drLTftTfNpOz0CH4vKngBfzxDIbCLS4Sq9fY8IXXDeHAvhJR1z42f9GlJSUetzhb7XFTgl+q35gRF6+13rO9hRxmx5HPXysBA+yilh3n93lxePw42ENJan9YsSGG0tYrEt+OLw48WPk4K1aEtoADemRcGNLjG0dR4+76xSZH58ltXCorYv/3gp/cGecnuJNqBkBygtDBvOiZclcBYOnvMs0dSXeZPbcAgUnu3K+xvqbJIPkWH/f1V4JfBEhUe0yfgqCwWsqWuVUND76yBkVf7X7Y6FlNwcQeS2Wm3AA8sWEMwfDFhWykJ2bFfUt2QA3wNhylnOMsmbhJw7CEo9dVGGE+xUTyO1ZmJLUev1AvNxTOZTtMTDLtuxMNoOsHbiOW837lJVlCgTDhSoAGZDYgZX2YBJySpxrXfOXYBcm2Miea1VUycmmu4fF1g3Xaci9hPmEYyydHav5iEf8P9Iq0bdf896Ng5JgXQBgNozmtoA+Sys+cO1yw7ASnjJ0hVzPWqhMp0YPCoovVJdJffZBQ3H7fSdb4NsTvBM6rAcNyz6qHKZhQWGCuF4rJcC7iOB5yER8f8xlBiuGd1v8ub5CrlmiGIUS3psxV+kfGeElHAlNDHnfd8J+QwlqbI5zOXByKB/lsNa0uYVmZ/WSER/bWgG2/bnQ=="
+            />
+        </div>
+        <div id="divHeader">
+            <input type="hidden" name="hdnCity" id="hdnCity">
+            <div id="header">
+                <div id="header_top">
+                    <div class="tn-section-content tn-no-padding">
+                        <div id="logo_navigation_and_account">
+                            <div id="logo_and_city">
+
+
+
+                                </a>
+                                <a href="#city_popup" id="select_city" class="tn-select-city" style="display:none">
+
+                                    <span>[</span> <span id="spnSelectedRegion" class="tn-city-name tn-single-line">Chennai</span> <span class="dropdown-icon">
+                                        <img src="https://cdn11.ticketnew.com/images/tn-location-white.png"></span> <span>]</span>
+
+                                </a>
+                            </div>
+                            <div id="navigation">
+                                <ul>
+                                    <li class="li-home"></li>
+                                    <li class="parent li-movie">
+
+                                        <div class="tn-nav-dropdown-container">
+                                            <div class="tn-section">
+                                                <div class="tn-section-multi-column-links">
+                                                    <div id="navNowShowing" class="tn-section-columns tn-columns-4">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="parent li-theatre">
+
+                                        <div class="tn-nav-dropdown-container">
+                                            <div class="tn-section">
+                                                <div class="theatres tn-section-multi-column-links">
+                                                    <div id="navTheatres" class="tn-section-columns tn-columns-3">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="parent li-event">
+
+                                        <div class="tn-nav-dropdown-container">
+                                            <div class="tn-section">
+                                                <div class="tn-section-multi-column-links">
+                                                    <div id="navEvents" class="tn-section-columns tn-columns-4">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li class="li-order">
+
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div id="account">
+                                <ul>
+                                    <li id="li_login"><a href="/OnlineTheatre/Theatre/UserLogin.aspx"><span class="icon-and-text"><span class="icon account-icon">
+                                        <img src="https://cdn11.ticketnew.com/images/account-white.svg"></span> <span class="text">Log In/Sign Up</span></span></a></li>
+
+                                    <li class="border"><span></span></li>
+                                    <li class="parent li-offers"><a href="/Movie-offers-Tickets-Online-Booking-Show-Timings/latest-offers/Offer_Section/C/Chennai" id="href_offers"><span class="icon-and-text"><span class="text">OFFERS</span></span></a></li>
+                                    <li class="border"><span></span></li>
+                                    <li><a href="https://www.ticketnew.com/download_application/latest-offers/ticketnew_mobile_application"><span class="icon-and-text"><span class="icon app-download-icon">
+                                        <img src="https://cdn11.ticketnew.com/images/app-download.svg"></span> <span class="text">APP</span></span></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="city_popup" class="tn-section">
+                <div class="tn-popup-container tn-city-select-popup">
+                    <div class="tn-popup-content">
+                        <h5>Select a City</h5>
+                        <div class="typeahead-container">
+                            <div class="tn-search-box tn-typeahead-field">
+                                <input type="text" name="search" id="tn_city_search" placeholder="Search for City">
+                                <img src="https://cdn11.ticketnew.com/images/search.svg" alt="Search icon">
+                            </div>
+                        </div>
+                        <div id="allCities" class="tn-cities-container">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="divCityScript">
+            </div>
+
+            <script type="text/javascript">
+                function setCookie(strCity) {
+                    $.cookie("TN", strCity, {
+                        expires: 365,
+                        path: '/'
+                    });
+                }
+
+                function setCookiemovie(_this, strCity) {
+                    $.cookie("TN", strCity, {
+                        expires: 365,
+                        path: '/'
+                    });
+                    location.href = _this.getAttribute("data-href");
+
+                }
+            </script>
+
+            <script type="text/javascript">
+                function Signout() {
+                    TKTNEW.Misc.loader(true);
+                    TKTNEW.Misc.ajax({
+                        type: 'POST',
+                        datatype: 'json',
+                        contenttype: 'string',
+                        accept: 'application/json; charset=utf-8',
+                        url: "calls/Signout",
+                        data: "{}",
+                        complete: function() {
+                            if (TKTNEW.Validate.url(logo.href))
+                                window.location = logo.href;
+                        }
+                    });
+                }
+            </script>
+        </div>
+        <div id="content">
+            <div class="tn-section">
+                <div class="tn-section-content tn-no-padding" style="width: 100%;">
+                    <div class="tn-main-and-sidebar-content">
+                        <div class="tn-main-content">
+                            <div id="seat_select_container" class="tn-main-inner-content tn-seating-chart tn-scroll">
+                                <div id='divlvlrt1' class='tn-class-grid-container' data-lvlrt1=250 data-msg='' data-areaname='PLATINUM PREMIUM' data-fb='False'>
+                                    <h5>PLATINUM PREMIUM &#8377;250</h5>
+                                    <div class='tn-class-grid' align='center' data-max=10>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td class='tn-row-label'>A</td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_1_1' data-seatname='A1' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_1_2' data-seatname='A2' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_1_3' data-seatname='A3' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_1_4' data-seatname='A4' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_1_5' data-seatname='A5' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_1_6' data-seatname='A6' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_1_7' data-seatname='A7' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_1_8' data-seatname='A8' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_1_9' data-seatname='A9' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_1_10' data-seatname='A10' data-tw='False' data-twd='' data-area='1'></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class='tn-row-label'>B</td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_2_1' data-seatname='B1' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_2_2' data-seatname='B2' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_2_3' data-seatname='B3' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_2_4' data-seatname='B4' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_2_5' data-seatname='B5' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_2_6' data-seatname='B6' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat ' data-seat='' data-seatname='B' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat ' data-seat='' data-seatname='B' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_2_9' data-seatname='B7' data-tw='False' data-twd='' data-area='1'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='2_2_10' data-seatname='B8' data-tw='False' data-twd='' data-area='1'></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                                <div id='divlvlrt2' class='tn-class-grid-container' data-lvlrt2=250 data-msg='' data-areaname='PLATINUM RECLINERS' data-fb='False'>
+                                    <h5>PLATINUM RECLINERS &#8377;250</h5>
+                                    <div class='tn-class-grid' align='center' data-max=10>
+                                        <table>
+                                            <tbody>
+                                                <tr>
+                                                    <td class='tn-row-label'></td>
+                                                    <td class='tn-seat'></td>
+                                                    <td class='tn-seat'></td>
+                                                    <td class='tn-seat'></td>
+                                                    <td class='tn-seat'></td>
+                                                    <td class='tn-seat'></td>
+                                                    <td class='tn-seat'></td>
+                                                    <td class='tn-seat'></td>
+                                                    <td class='tn-seat'></td>
+                                                    <td class='tn-seat'></td>
+                                                    <td class='tn-seat'></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class='tn-row-label'>C</td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_1_1' data-seatname='C1' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_1_2' data-seatname='C2' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_1_3' data-seatname='C3' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_1_4' data-seatname='C4' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_1_5' data-seatname='C5' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-available' data-seat='1_1_6' data-seatname='C6' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat ' data-seat='' data-seatname='C' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_1_8' data-seatname='C7' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_1_9' data-seatname='C8' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat'></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class='tn-row-label'>D</td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_2_1' data-seatname='D1' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_2_2' data-seatname='D2' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_2_3' data-seatname='D3' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_2_4' data-seatname='D4' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_2_5' data-seatname='D5' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_2_6' data-seatname='D6' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat ' data-seat='' data-seatname='D' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_2_8' data-seatname='D7' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_2_9' data-seatname='D8' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat'></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class='tn-row-label'>E</td>
+                                                    <td class='tn-seat tn-seat-available' data-seat='1_3_1' data-seatname='E1' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_3_2' data-seatname='E2' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_3_3' data-seatname='E3' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_3_4' data-seatname='E4' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_3_5' data-seatname='E5' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_3_6' data-seatname='E6' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat ' data-seat='' data-seatname='E' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_3_8' data-seatname='E7' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_3_9' data-seatname='E8' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat'></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class='tn-row-label'>F</td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_4_1' data-seatname='F1' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_4_2' data-seatname='F2' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_4_3' data-seatname='F3' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_4_4' data-seatname='F4' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_4_5' data-seatname='F5' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_4_6' data-seatname='F6' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat ' data-seat='' data-seatname='F' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_4_8' data-seatname='F7' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_4_9' data-seatname='F8' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat'></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class='tn-row-label'>G</td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_5_1' data-seatname='G1' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_5_2' data-seatname='G2' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_5_3' data-seatname='G3' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_5_4' data-seatname='G4' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_5_5' data-seatname='G5' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_5_6' data-seatname='G6' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat ' data-seat='' data-seatname='G' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_5_8' data-seatname='G7' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat tn-seat-taken' data-seat='1_5_9' data-seatname='G8' data-tw='False' data-twd='' data-area='2'></td>
+                                                    <td class='tn-seat'></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tn-movie-screen-block">
+                                <div class="tn-movie-screen">
+                                    <p>Screen This Way</p>
+                                </div>
+                            </div>
+                            <div class="tn-movie-seat-legends">
+                                <ul>
+                                    <li><span style="width: 30px; height: 30px;" class="tn-seat-available"></span><span class="tn-seat-label">Available</span></li>
+                                    <li><span class="tn-seat tn-seat-taken"></span><span class="tn-seat-label">Taken</span></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tn-sidebar-content">
+                            <div class="tn-sidebar-inner-content">
+                                <div id="divBookingInfo">
+
+
+                                    <div class='tn-movie-showtime tn-block'>
+                                        <h6 class='tn-margin-bottom-10'>Showtime</h6>
+                                        <h5><span class='tn-date-time'>Fri, 16 Aug   08:00 PM</span>&nbsp;&nbsp;</h5>
+                                    </div>
+                                </div>
+                                <div class="tn-selected-seats tn-block">
+                                    <ul id="select_seats_area">
+                                    </ul>
+                                </div>
+                                <div id="divPriceInfo" class="tn-block tn-items-count-and-price">
+                                    <table class="tn-table">
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <h5 id="select_seat_count">0 Seat(s)</h5>
+                                                </td>
+                                                <td>
+                                                    <h3 class="tn-red">&#8377;<span id="select_seat_price">0</span></h3>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="tn-button tn-button-continue" onclick="javascript:AjaxCalls.bookSeats(this, 0);">
+                                    <span>Continue</span>
+                                </div>
+                                <div class="tn-button tn-button-continue" onclick="__doPostBack('Cancel', ''); return false;" style="background: #f5f5f5 !important; border-color: #e2e2e2 !important; color: #000; margin-top: 20px;">
+                                    <span>Cancel</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div style="display: none">
+            <a id="LinkButton1" href="javascript:__doPostBack(&#39;LinkButton1&#39;,&#39;&#39;)">LinkButton</a>
+        </div>
+        <input name="hidRate" type="hidden" id="hidRate" />
+        <input name="hidOtherCharges" type="hidden" id="hidOtherCharges" />
+        <input name="hidEventDate" type="hidden" id="hidEventDate" />
+        <input name="hidLevelDescription" type="hidden" id="hidLevelDescription" />
+        <input name="hidMovieDescription" type="hidden" id="hidMovieDescription" />
+        <input name="hidMovieId" type="hidden" id="hidMovieId" />
+        <input name="hidTheatreName" type="hidden" id="hidTheatreName" />
+        <input name="hidTheatreId" type="hidden" id="hidTheatreId" />
+        <input name="hidShowId" type="hidden" id="hidShowId" />
+        <input name="hidShowDescription" type="hidden" id="hidShowDescription" />
+        <input name="hidTaxStructureId" type="hidden" id="hidTaxStructureId" />
+        <input name="hidseatname" type="hidden" id="hidseatname" />
+        <input name="hidLvlId" type="hidden" id="hidLvlId" />
+        <input name="hidFB" type="hidden" id="hidFB" />
+        <input name="hidCancelURL" type="hidden" id="hidCancelURL" value="https://www.ticketnew.com/Ranarangam-Movie-Tickets-Online-Show-Timings/Online-Advance-Booking/20857/C/Hyderabad" />
+        <input name="hdnCharge1" type="hidden" id="hdnCharge1" />
+        <input name="hdnCharge2" type="hidden" id="hdnCharge2" />
+        <input name="hdnCharge3" type="hidden" id="hdnCharge3" />
+        <input name="hdnCharge4" type="hidden" id="hdnCharge4" />
+        <input name="hdnCharge5" type="hidden" id="hdnCharge5" />
+        <input name="hdnCharge6" type="hidden" id="hdnCharge6" />
+        <input name="hdnCharge7" type="hidden" id="hdnCharge7" />
+        <input name="hdnCharge8" type="hidden" id="hdnCharge8" />
+        <input name="hdnCharge9" type="hidden" id="hdnCharge9" />
+        <input name="hdnCharge10" type="hidden" id="hdnCharge10" />
+        <input name="hdn3dchrg" type="hidden" id="hdn3dchrg" value="0" />
+        <input name="hdnLevelMessage" type="hidden" id="hdnLevelMessage" />
+        <input name="hdnadvance" type="hidden" id="hdnadvance" value="0" />
+
+
+        <script type="text/javascript" src="//cdn11.ticketnew.com/js/main.js"></script>
+        <script type="text/javascript" src="../../js/booking.js?v95"></script>
+        <script type="text/javascript">
+            AjaxCalls.selSeats();
+        </script>
+    </form>
+    <script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "https://www.");
+        document.write("\<script src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'>\<\/script>");
+    </script>
+    <script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-3232605-1");
+        pageTracker._initData();
+        pageTracker._trackPageview();
+    </script>
+
+</body>
+
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+
+</head>
+
+
+
+<body onload="onLoaderFunc()">
+
+
+
+    <div class="inputForm">
+        <center>
+            Name : <input type="text" id="Username" required> Number of Seats : <input type="number" id="Numseats" required>
+            <br/><br/>
+
+        </center>
+    </div>
+
+
+    <div class="seatStructure">
+        <center>
+
+            <table id="seatsBlock">
+                <p id="notification"></p>
+                <tr>
+                    <td colspan="14">
+                        <div class="screen">SCREEN</div>
+                    </td>
+                    <td rowspan="20">
+                        <div class="smallBox greenBox">Selected Seat</div> <br/>
+                        <div class="smallBox redBox">Reserved Seat</div><br/>
+                        <div class="smallBox emptyBox">Empty Seat</div><br/>
+                    </td>
+
+                    <br/>
+                </tr>
+
+                <tr>
+                    <td></td>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                    <td>4</td>
+                    <td>5</td>
+                    <td></td>
+                    <td>6</td>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                    <td>10</td>
+                    <td>11</td>
+                    <td>12</td>
+                </tr>
+
+                <tr>
+                    <td>A</td>
+                    <td><input type="checkbox" class="seats" value="A1"></td>
+                    <td><input type="checkbox" class="seats" value="A2"></td>
+                    <td><input type="checkbox" class="seats" value="A3"></td>
+                    <td><input type="checkbox" class="seats" value="A4"></td>
+                    <td><input type="checkbox" class="seats" value="A5"></td>
+                    <td class="seatGap"></td>
+                    <td><input type="checkbox" class="seats" value="A6"></td>
+                    <td><input type="checkbox" class="seats" value="A7"></td>
+                    <td><input type="checkbox" class="seats" value="A8"></td>
+                    <td><input type="checkbox" class="seats" value="A9"></td>
+                    <td><input type="checkbox" class="seats" value="A10"></td>
+                    <td><input type="checkbox" class="seats" value="A11"></td>
+                    <td><input type="checkbox" class="seats" value="A12"></td>
+                </tr>
+
+                <tr>
+                    <td>B</td>
+                    <td><input type="checkbox" class="seats" value="B1"></td>
+                    <td><input type="checkbox" class="seats" value="B2"></td>
+                    <td><input type="checkbox" class="seats" value="B3"></td>
+                    <td><input type="checkbox" class="seats" value="B4"></td>
+                    <td><input type="checkbox" class="seats" value="B5"></td>
+                    <td></td>
+                    <td><input type="checkbox" class="seats" value="B6"></td>
+                    <td><input type="checkbox" class="seats" value="B7"></td>
+                    <td><input type="checkbox" class="seats" value="B8"></td>
+                    <td><input type="checkbox" class="seats" value="B9"></td>
+                    <td><input type="checkbox" class="seats" value="B10"></td>
+                    <td><input type="checkbox" class="seats" value="B11"></td>
+                    <td><input type="checkbox" class="seats" value="B12"></td>
+                </tr>
+
+                <tr>
+                    <td>C</td>
+                    <td><input type="checkbox" class="seats" value="C1"></td>
+                    <td><input type="checkbox" class="seats" value="C2"></td>
+                    <td><input type="checkbox" class="seats" value="C3"></td>
+                    <td><input type="checkbox" class="seats" value="C4"></td>
+                    <td><input type="checkbox" class="seats" value="C5"></td>
+                    <td></td>
+                    <td><input type="checkbox" class="seats" value="C6"></td>
+                    <td><input type="checkbox" class="seats" value="C7"></td>
+                    <td><input type="checkbox" class="seats" value="C8"></td>
+                    <td><input type="checkbox" class="seats" value="C9"></td>
+                    <td><input type="checkbox" class="seats" value="C10"></td>
+                    <td><input type="checkbox" class="seats" value="C11"></td>
+                    <td><input type="checkbox" class="seats" value="C12"></td>
+                </tr>
+
+                <tr>
+                    <td>D</td>
+                    <td><input type="checkbox" class="seats" value="D1"></td>
+                    <td><input type="checkbox" class="seats" value="D2"></td>
+                    <td><input type="checkbox" class="seats" value="D3"></td>
+                    <td><input type="checkbox" class="seats" value="D4"></td>
+                    <td><input type="checkbox" class="seats" value="D5"></td>
+                    <td></td>
+                    <td><input type="checkbox" class="seats" value="D6"></td>
+                    <td><input type="checkbox" class="seats" value="D7"></td>
+                    <td><input type="checkbox" class="seats" value="D8"></td>
+                    <td><input type="checkbox" class="seats" value="D9"></td>
+                    <td><input type="checkbox" class="seats" value="D10"></td>
+                    <td><input type="checkbox" class="seats" value="D11"></td>
+                    <td><input type="checkbox" class="seats" value="D12"></td>
+                </tr>
+
+                <tr>
+                    <td>E</td>
+                    <td><input type="checkbox" class="seats" value="E1"></td>
+                    <td><input type="checkbox" class="seats" value="E2"></td>
+                    <td><input type="checkbox" class="seats" value="E3"></td>
+                    <td><input type="checkbox" class="seats" value="E4"></td>
+                    <td><input type="checkbox" class="seats" value="E5"></td>
+                    <td></td>
+                    <td><input type="checkbox" class="seats" value="E6"></td>
+                    <td><input type="checkbox" class="seats" value="E7"></td>
+                    <td><input type="checkbox" class="seats" value="E8"></td>
+                    <td><input type="checkbox" class="seats" value="E9"></td>
+                    <td><input type="checkbox" class="seats" value="E10"></td>
+                    <td><input type="checkbox" class="seats" value="E11"></td>
+                    <td><input type="checkbox" class="seats" value="E12"></td>
+                </tr>
+
+                <tr class="seatVGap"></tr>
+
+                <tr>
+                    <td>F</td>
+                    <td><input type="checkbox" class="seats" value="F1"></td>
+                    <td><input type="checkbox" class="seats" value="F2"></td>
+                    <td><input type="checkbox" class="seats" value="F3"></td>
+                    <td><input type="checkbox" class="seats" value="F4"></td>
+                    <td><input type="checkbox" class="seats" value="F5"></td>
+                    <td></td>
+                    <td><input type="checkbox" class="seats" value="F6"></td>
+                    <td><input type="checkbox" class="seats" value="F7"></td>
+                    <td><input type="checkbox" class="seats" value="F8"></td>
+                    <td><input type="checkbox" class="seats" value="F9"></td>
+                    <td><input type="checkbox" class="seats" value="F10"></td>
+                    <td><input type="checkbox" class="seats" value="F11"></td>
+                    <td><input type="checkbox" class="seats" value="F12"></td>
+                </tr>
+
+                <tr>
+                    <td>G</td>
+                    <td><input type="checkbox" class="seats" value="G1"></td>
+                    <td><input type="checkbox" class="seats" value="G2"></td>
+                    <td><input type="checkbox" class="seats" value="G3"></td>
+                    <td><input type="checkbox" class="seats" value="G4"></td>
+                    <td><input type="checkbox" class="seats" value="G5"></td>
+                    <td></td>
+                    <td><input type="checkbox" class="seats" value="G6"></td>
+                    <td><input type="checkbox" class="seats" value="G7"></td>
+                    <td><input type="checkbox" class="seats" value="G8"></td>
+                    <td><input type="checkbox" class="seats" value="G9"></td>
+                    <td><input type="checkbox" class="seats" value="G10"></td>
+                    <td><input type="checkbox" class="seats" value="G11"></td>
+                    <td><input type="checkbox" class="seats" value="G12"></td>
+                </tr>
+
+                <tr>
+                    <td>H</td>
+                    <td><input type="checkbox" class="seats" value="H1"></td>
+                    <td><input type="checkbox" class="seats" value="H2"></td>
+                    <td><input type="checkbox" class="seats" value="H3"></td>
+                    <td><input type="checkbox" class="seats" value="H4"></td>
+                    <td><input type="checkbox" class="seats" value="H5"></td>
+                    <td></td>
+                    <td><input type="checkbox" class="seats" value="H6"></td>
+                    <td><input type="checkbox" class="seats" value="H7"></td>
+                    <td><input type="checkbox" class="seats" value="H8"></td>
+                    <td><input type="checkbox" class="seats" value="H9"></td>
+                    <td><input type="checkbox" class="seats" value="H10"></td>
+                    <td><input type="checkbox" class="seats" value="H11"></td>
+                    <td><input type="checkbox" class="seats" value="H12"></td>
+                </tr>
+
+                <tr>
+                    <td>I</td>
+                    <td><input type="checkbox" class="seats" value="I1"></td>
+                    <td><input type="checkbox" class="seats" value="I2"></td>
+                    <td><input type="checkbox" class="seats" value="I3"></td>
+                    <td><input type="checkbox" class="seats" value="I4"></td>
+                    <td><input type="checkbox" class="seats" value="I5"></td>
+                    <td></td>
+                    <td><input type="checkbox" class="seats" value="I6"></td>
+                    <td><input type="checkbox" class="seats" value="I7"></td>
+                    <td><input type="checkbox" class="seats" value="I8"></td>
+                    <td><input type="checkbox" class="seats" value="I9"></td>
+                    <td><input type="checkbox" class="seats" value="I10"></td>
+                    <td><input type="checkbox" class="seats" value="I11"></td>
+                    <td><input type="checkbox" class="seats" value="I12"></td>
+                </tr>
+
+                <tr>
+                    <td>J</td>
+                    <td><input type="checkbox" class="seats" value="J1"></td>
+                    <td><input type="checkbox" class="seats" value="J2"></td>
+                    <td><input type="checkbox" class="seats" value="J3"></td>
+                    <td><input type="checkbox" class="seats" value="J4"></td>
+                    <td><input type="checkbox" class="seats" value="J5"></td>
+                    <td></td>
+                    <td><input type="checkbox" class="seats" value="J6"></td>
+                    <td><input type="checkbox" class="seats" value="J7"></td>
+                    <td><input type="checkbox" class="seats" value="J8"></td>
+                    <td><input type="checkbox" class="seats" value="J9"></td>
+                    <td><input type="checkbox" class="seats" value="J10"></td>
+                    <td><input type="checkbox" class="seats" value="J11"></td>
+                    <td><input type="checkbox" class="seats" value="J12"></td>
+                </tr>
+
+
+            </table>
+
+            <a href="/ly">book</a>
+
+    </div>
+
+    <br/><br/>
+
+    <!-- <div class="displayerBoxes">
+        <center>
+            <table class="Displaytable">
+                <tr>
+                    <th>Name</th>
+                    <th>Number of Seats</th>
+                    <th>Seats</th>
+                </tr>
+                <tr>
+                    <td><textarea id="nameDisplay"></textarea></td>
+                    <td><textarea id="NumberDisplay"></textarea></td>
+                    <td><textarea id="seatsDisplay"></textarea></td>
+                </tr>
+            </table>
+        </center>
+
+    </div> -->
+
+
+</html> -->
