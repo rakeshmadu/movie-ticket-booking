@@ -25,7 +25,7 @@ SECRET_KEY = '2xw-(l+@=g6$u(th1+(8z8suxjg+p2q_^n^b+c_f@)uby95q=r'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ticketbokk.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
